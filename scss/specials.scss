@@ -1,0 +1,42 @@
+.specials {
+    h1 {
+        font-size: 42pt;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        color: #832232;
+    }
+    .row {
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    .col {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      img {
+        margin: 50px;
+        height: 50%;
+        width: 50%;
+      }
+      .txt {
+        width: 40%;
+        height: 90%;
+        margin: 50px;
+        justify-content: right;
+        align-items: right;
+        float: right;
+        h3 {
+          color: #832232;
+          font-size: 24pt;
+        }
+        p {
+          color: #20202a;
+          word-wrap: inherit;
+        }
+      }
+    }
+  }
+}
